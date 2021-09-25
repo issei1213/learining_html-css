@@ -26,6 +26,8 @@ h1 {
 h2 {
   font-style: 20px;
   font-family: "游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
+  color: navy;
+
 }
 
 p {
@@ -34,5 +36,6 @@ p {
   font-size: 20px;
   line-height: 1.7;
   /* text-align: right; */
+  color: rgba(10, 130, 165, .5)
 
 }
