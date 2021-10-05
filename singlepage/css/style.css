@@ -131,11 +131,6 @@ footer p {
   font-size: 0.875rem;
 }
 
-/* 記事部分 */
-article {
-  width: 74%;
-}
-
 .news-contents {
   display: flex;
   justify-content: space-between;
@@ -181,6 +176,12 @@ article {
   margin-left: 120px;
 }
 
+/* 記事部分 */
+article {
+  width: 60%;
+  order: 2;
+}
+
 article img {
   margin-bottom: 20px;
 }
@@ -191,6 +192,11 @@ article p {
 /* サイドバー */
 aside {
   width: 22%;
+  order: 3;
+}
+
+.ad {
+  order: 1;
 }
 
 aside p {
@@ -253,21 +259,20 @@ aside p {
     flex-direction: column;
   }
 
-  article,
+  article {
+    width: 60%;
+  }
   aside {
     width: 100%;
+    margin-top: 60px;
   }
 
   #news .page-title {
     margin-top: 30px;
   }
 
-  aside {
-    margin-top: 60px;
-  }
-
   .post-info {
-    margin-bottom: 30px;    
+    margin-bottom: 30px;
   }
 
   .post-date {
